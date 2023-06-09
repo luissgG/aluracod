@@ -1,0 +1,80 @@
+#cabecalho {
+    background: purple;
+    height: 100px;
+
+}
+
+
+body {
+    background-color: white;
+}
+
+#cabecalhotitu {
+    position: absolute;
+    width: 139px;
+    height: 46px;   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    color: rgb(149, 187, 36);
+}
+
+
+.centerh1 {
+    color: rgb(120, 32, 32);
+    display: flex;
+    justify-content: center;
+}
+
+.sobrehelena {
+    position: absolute;
+    width: 799px;
+    height: 171px;
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+
+.imagemescola {
+    max-width: 500px;
+    max-height: 450px;
+
+    width: 600px;
+
+    margin-top: 130px;
+}
+
+
+.butEscola {
+    height:30px; 
+    width:90px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:55%;
+    border-radius: 5px;
+    border: none;    
+}
+
+.dc {
+    height:30px; 
+    width:90px; 
+    margin: -20px -50px; 
+    position:relative;
+    top: 50%; 
+    left: 45%;
+    border-radius: 5px; 
+    border: none;
+}
+
+.dca {
+    display: flex;
+    justify-content: center;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
